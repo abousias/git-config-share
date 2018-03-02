@@ -1,0 +1,13 @@
+include:
+  - core
+  - alias
+  - push
+  - diff
+  - difftool.*
+  - merge
+  - mergetool.*
+exclude:
+  core:
+    - excludefile
+indent_style: space
+indent_size: 4
